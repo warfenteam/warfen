@@ -8,7 +8,7 @@ public class Menu : MonoBehaviour {
 
     void OnGUI() {
         if (Network.peerType == NetworkPeerType.Disconnected) {
-            this.IP = GUI.TextField(new Rect(100, 75, 300, 25), "127.0.0.1");
+            this.IP = GUI.TextField(new Rect(100, 75, 300, 25), this.IP);
             if (GUI.Button(new Rect(100, 100, 100, 25), "Start Server")) {
                 Network.InitializeServer(10, Port, false);
             }
