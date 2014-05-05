@@ -1,7 +1,17 @@
-Temp/
-Trash/
+Assets/Sprites/
+Assets/Sounds/
 
 Library/metadata/
 
-Assets/Sprites/
-Assets/Sounds/
+Temp/
+Trash/
+
+obj/
+warfen_Data/
+
+Assembly-Warfen.csproj
+warfen-csharp.sln
+warfen-csharp.v11.suo
+warfen.exe
+warfen.sln
+warfen.userprefs
